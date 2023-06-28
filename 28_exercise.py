@@ -27,7 +27,9 @@ class PartTimeEmployee(Employee):
 
 
 zs = FullTimeEmployee('zs', '001', 5000)
-ls = PartTimeEmployee('ls', '002', 100, 10)
+ls = PartTimeEmployee('ls', '002', 200, 20)
 
 zs.print_info()
 ls.print_info()
+print(zs.calculate_monthly_pay())
+print(ls.calculate_monthly_pay())
